@@ -18,6 +18,6 @@ setup(
     packages=find_packages(),
     license='MIT',
     install_requires=[
-        'ptvsd==3.0.0',
+        'ptvsd>=4.0',
     ]
 )
