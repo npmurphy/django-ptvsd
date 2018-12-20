@@ -37,7 +37,7 @@ class Command(RunserverCommand):
             # TODO: Check if ptvsd is available
             import ptvsd
             ptvsd.enable_attach(
-                self.remote_debug_pass,
+                #self.remote_debug_pass,
                 address=(self.remote_debug_addr, self.remote_debug_port)
             )
 
